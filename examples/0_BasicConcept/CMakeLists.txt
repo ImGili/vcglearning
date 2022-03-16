@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(myproject LANGUAGES CXX)
+project(0_BasicConcept LANGUAGES CXX)
 
 
 # 添加应用                                    
@@ -12,6 +12,5 @@ target_link_libraries(${PROJECT_NAME} PUBLIC
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
-
-
+            ${VCGLIB_INCLUDE_DIRS}
 )
