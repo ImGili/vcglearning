@@ -1,1 +1,2 @@
-add_subdirectory(0_BasicConcept)
+AddCGALExecutable(0_BasicConcept 0_BasicConcept.cpp)
+AddCGALExecutable(1_BitFlag 1_BitFlag.cpp)
